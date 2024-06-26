@@ -211,3 +211,27 @@ spec:
         replicas: 0 # backend needs to be configured
       designateBackendbind9:
         replicas: 0 # backend needs to be configured
+  tls:
+    ingress:
+      enabled: true
+      ca:
+        duration: 1h0m0s
+      cert:
+        duration: 30m0s
+    podLevel:
+      enabled: true
+      internal:
+        ca:
+          duration: 1h0m0s
+        cert:
+          duration:  30m0s
+      libvirt:
+        ca:
+          duration: 1h0m0s
+        cert:
+          duration:  30m0s
+      ovn:
+        ca:
+          duration: 1h0m0s
+        cert:
+          duration:  30m0s      
