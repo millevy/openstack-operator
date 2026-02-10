@@ -17,7 +17,7 @@ if [ -n "$DOCKERFILE" ]; then
 fi
 
 #loop over each openstack-k8s-operators go.mod entry
-MOD_PATHS=$(go list -mod=readonly -m -json all | jq -r '. | select(.Path | contains("openstack")) | .Replace // . |.Path' | grep -v openstack-operator | grep -v lib-common)
+MOD_PATHS=$(go list -mod=readonly -m -json all | jq -r '. | select(.Path | contains("openstack")) | select(.Path | contains("openstack-operator") | not) | select(.Path | contains("lib-common") | not) | .Replace // . |.Path')
 for MOD_PATH in ${MOD_PATHS}; do
     if [[ "$MOD_PATH" == "./apis" ]]; then
         continue
