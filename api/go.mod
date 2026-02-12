@@ -7,28 +7,28 @@ require (
 	github.com/go-playground/validator/v10 v10.30.1
 	github.com/onsi/ginkgo/v2 v2.28.1
 	github.com/onsi/gomega v1.39.1
-	github.com/openstack-k8s-operators/barbican-operator/api v0.6.1-0.20260209093036-adac5e8dd8ef
-	github.com/openstack-k8s-operators/cinder-operator/api v0.6.1-0.20260207170736-b66ff139c9c4
-	github.com/openstack-k8s-operators/designate-operator/api v0.6.1-0.20260209091512-77b4d35b4669
-	github.com/openstack-k8s-operators/glance-operator/api v0.6.1-0.20260207191004-c3d99b4efdeb
-	github.com/openstack-k8s-operators/heat-operator/api v0.6.1-0.20260209085740-60de0d89829c
-	github.com/openstack-k8s-operators/horizon-operator/api v0.6.1-0.20260209093920-242daf740c39
-	github.com/openstack-k8s-operators/infra-operator/apis v0.6.1-0.20260209094954-d2f11fadd7f3
-	github.com/openstack-k8s-operators/ironic-operator/api v0.6.1-0.20260207081358-6dce1a518688
-	github.com/openstack-k8s-operators/keystone-operator/api v0.6.1-0.20260209072852-fe0b612d7a33
+	github.com/openstack-k8s-operators/barbican-operator/api v0.6.1-0.20260212120848-dddbedeb88ae
+	github.com/openstack-k8s-operators/cinder-operator/api v0.6.1-0.20260212115737-d4f3f507dbe2
+	github.com/openstack-k8s-operators/designate-operator/api v0.6.1-0.20260212115736-8722b896dc07
+	github.com/openstack-k8s-operators/glance-operator/api v0.6.1-0.20260212105414-233896e7c69b
+	github.com/openstack-k8s-operators/heat-operator/api v0.6.1-0.20260212121707-58003d674ab0
+	github.com/openstack-k8s-operators/horizon-operator/api v0.6.1-0.20260212123139-a77cc1069d1e
+	github.com/openstack-k8s-operators/infra-operator/apis v0.6.1-0.20260212124933-d2541a526cd3
+	github.com/openstack-k8s-operators/ironic-operator/api v0.6.1-0.20260212132719-11326f1b1dc5
+	github.com/openstack-k8s-operators/keystone-operator/api v0.6.1-0.20260212134514-510b47405111
 	github.com/openstack-k8s-operators/lib-common/modules/common v0.6.1-0.20260205083029-d03e9df035ef
 	github.com/openstack-k8s-operators/lib-common/modules/storage v0.6.1-0.20260205083029-d03e9df035ef
-	github.com/openstack-k8s-operators/manila-operator/api v0.6.1-0.20260209092432-106ffbb4a349
-	github.com/openstack-k8s-operators/mariadb-operator/api v0.6.1-0.20260209081939-fa32a3a9f80a
-	github.com/openstack-k8s-operators/neutron-operator/api v0.6.1-0.20260209092431-16e5d86e97c4
-	github.com/openstack-k8s-operators/nova-operator/api v0.6.1-0.20260207082315-2e0a55b6d766
-	github.com/openstack-k8s-operators/octavia-operator/api v0.6.1-0.20260209080010-4021155ad00a
-	github.com/openstack-k8s-operators/openstack-baremetal-operator/api v0.6.1-0.20260209081120-0be305147d37
-	github.com/openstack-k8s-operators/ovn-operator/api v0.6.1-0.20260209073423-8270de0445c6
-	github.com/openstack-k8s-operators/placement-operator/api v0.6.1-0.20260207164744-4bfa441fbbd4
-	github.com/openstack-k8s-operators/swift-operator/api v0.6.1-0.20260209072852-997e34b6b55e
-	github.com/openstack-k8s-operators/telemetry-operator/api v0.6.1-0.20260208172501-be2ddf1f7aa2
-	github.com/openstack-k8s-operators/watcher-operator/api v0.6.1-0.20260207082017-e2c9f69be82c
+	github.com/openstack-k8s-operators/manila-operator/api v0.6.1-0.20260212115446-50bc95b86114
+	github.com/openstack-k8s-operators/mariadb-operator/api v0.6.1-0.20260212144335-e804f5700fea
+	github.com/openstack-k8s-operators/neutron-operator/api v0.6.1-0.20260212112247-2d542c7f89a2
+	github.com/openstack-k8s-operators/nova-operator/api v0.6.1-0.20260212104813-4ae0be03c9f8
+	github.com/openstack-k8s-operators/octavia-operator/api v0.6.1-0.20260212124333-552fe2a750e6
+	github.com/openstack-k8s-operators/openstack-baremetal-operator/api v0.6.1-0.20260212115447-7797ed9c08b4
+	github.com/openstack-k8s-operators/ovn-operator/api v0.6.1-0.20260212125557-7e80b1bf090b
+	github.com/openstack-k8s-operators/placement-operator/api v0.6.1-0.20260212113427-c1c2d8be8d4b
+	github.com/openstack-k8s-operators/swift-operator/api v0.6.1-0.20260212115737-94ae6fbce798
+	github.com/openstack-k8s-operators/telemetry-operator/api v0.6.1-0.20260212094407-49fb0a393e64
+	github.com/openstack-k8s-operators/watcher-operator/api v0.6.1-0.20260211174812-e26ab221a20b
 	github.com/rhobs/obo-prometheus-operator/pkg/apis/monitoring v0.71.0-rhobs1 // indirect
 	github.com/rhobs/observability-operator v0.3.1 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
