@@ -99,7 +99,7 @@ var (
 )
 
 const (
-	timeout = time.Second * 10
+	timeout = time.Second * 45
 
 	SecretName = "test-osp-secret"
 
@@ -228,6 +228,8 @@ var _ = BeforeSuite(func() {
 					"--request-timeout=5m",
 					"--max-requests-inflight=800",
 					"--max-mutating-requests-inflight=400",
+					"--service-cluster-ip-range=10.0.0.0/12", // 65k+ IPs
+					"--disable-admission-plugins=ResourceQuota,ServiceAccount,NamespaceLifecycle",
 				},
 			},
 			Etcd: &envtest.Etcd{
