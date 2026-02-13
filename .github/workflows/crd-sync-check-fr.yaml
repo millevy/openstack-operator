@@ -1,4 +1,4 @@
-name: CRD sync check olive branch
+name: CRD sync check latest fr branch
 
 on:
   schedule:
@@ -10,4 +10,4 @@ jobs:
     if: github.repository_owner == 'openstack-k8s-operators'
     uses: ./.github/workflows/crd-sync-check.yaml
     with:
-      branch_name: olive
+      branch_name: 18.0-fr5
